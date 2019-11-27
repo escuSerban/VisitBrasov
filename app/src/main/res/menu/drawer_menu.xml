@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_description"
+            android:icon="@drawable/ic_description"
+            android:title="@string/description"/>
+        <item
+            android:id="@+id/nav_hotels"
+            android:icon="@drawable/ic_hotels"
+            android:title="@string/hotels" />
+        <item
+            android:id="@+id/nav_attractions"
+            android:icon="@drawable/ic_attractions"
+            android:title="@string/attractions" />
+        <item
+            android:id="@+id/nav_foodAndDrink"
+            android:icon="@drawable/ic_restaurants"
+            android:title="@string/foodAndDrink" />
+    </group>
+
+    <group android:id="@+id/divider">
+        <item
+            android:title="@string/location" />
+        <item
+            android:title="@string/elevation" />
+        <item
+            android:title="@string/population" />
+        <item
+            android:title="@string/inhabited" />
+        <item
+            android:title="@string/documented" />
+        <item
+            android:title="@string/postal_code" />
+        <item
+            android:title="@string/area_codes" />
+    </group>
+
+</menu>
